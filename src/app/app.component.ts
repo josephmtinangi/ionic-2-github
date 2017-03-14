@@ -4,6 +4,8 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
+import { GithubService } from '../providers/github-service';
+
 
 @Component({
   templateUrl: 'app.html'
