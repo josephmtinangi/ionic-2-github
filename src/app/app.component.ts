@@ -8,7 +8,8 @@ import { GithubService } from '../providers/github-service';
 
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  providers: [GithubService]
 })
 export class MyApp {
   rootPage = TabsPage;
