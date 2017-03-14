@@ -14,5 +14,23 @@
 
 
 <ion-content padding>
+  
+  <ion-card>
+    <form {ngSubmit}="onSubmit()">
+      <ion-item>
+        <ion-label>
+          Github User:
+        </ion-label>
+        <ion-input type="text" [{ngModel}]="github_user" name="github_user"></ion-input>
+      </ion-item>
+      <br>
+      <button ion-button type="submit" clear small>Search</button>
+    </form>
+    <button ion-button clear small (click)="reset()">Reset</button>
+  </ion-card>
+
+  <ion-card></ion-card>
+
+  <ion-card></ion-card>
 
 </ion-content>
